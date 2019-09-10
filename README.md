@@ -20,4 +20,4 @@ and finally addition the the Chain.
 ReplaceChain function is also present which solves the basic blockchain problem of selecting the 
 longest blockchain in case a duplicate blockchain is present.
 
-The local server is made using gorrila/Mux. For further reference about gorrila/mux click visist this link https://github.com/gorilla/mux.
+The local server is made using gorrila/Mux. For further reference about gorrila/mux click visit this link https://github.com/gorilla/mux.
