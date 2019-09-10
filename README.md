@@ -6,10 +6,10 @@ Using post requests, we can add blocks to the blockchain by passing the json val
 Genesis block is the first block in the Blockchain array of struct block.
 
 Genesis block has following properties
- index:0
- previous hash: " "
- BPM:62
- hash: genesisBlock.hash //generate by createHash function by adding current time, index, bpm and prev hash using a SHA256.
+ 1. index:0
+ 2. previous hash: " "
+ 3. BPM:62
+ 4. hash: genesisBlock.hash //generate by createHash function by adding current time, index, bpm and prev hash using a SHA256.
 
 every new block added to the Blockchain array undergoes the following process:
 1. generating the block through generateBlock() with oldBlock and BPM as arguments.
